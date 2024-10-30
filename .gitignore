@@ -1,0 +1,22 @@
+# Local
+.DS_Store
+*.local
+*.log*
+
+# generated
+@mf-types/
+routeTree.gen.ts
+
+# Dist
+dist/
+
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+pnpm i @module-federation/enhanced
+pnpm i -D @module-federation/rsbuild-plugin
